@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+      * {
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        background-color: oldlace;
+      }
+      .sectiong {
+        width: 500px;
+        margin: auto auto;
+      }
+      .head {
+        padding-top: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 20px;
+      }
+      .textbox {
+        font-size: 30px;
+        width: 500px;
+        height: 50px;
+        border: 3px solid #008000;
+        margin: 5px 0;
+        margin-top: 10px;
+        text-align: right;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: oldlace;
+      }
+      .proper {
+        /* border: 2px solid black; */
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: #fff;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+      }
+      .gbutton {
+        color: #fff;
+        font-weight: bold;
+        font-size: 32px;
+        background-color: #00000075;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+      .gbutton:hover {
+        background-color: orange;
+      }
+      .button0 {
+        border-bottom-left-radius: 20px;
+      }
+      .buttone {
+        border-bottom-right-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="sectiong">
+      <h2 class="head">Calculator</h2>
+      <input type="text" class="textbox" />
+      <section class="proper">
+          <button class="gbutton button7">7</button>
+          <button class="gbutton button8">8</button>
+          <button class="gbutton button9">9</button>
+          <button class="gbutton buttonm">*</button>
+          <button class="gbutton button4">4</button>
+          <button class="gbutton button5">5</button>
+          <button class="gbutton button6">6</button>
+          <button class="gbutton buttons">-</button>
+          <button class="gbutton button1">1</button>
+          <button class="gbutton button2">2</button>
+          <button class="gbutton button3">3</button>
+          <button class="gbutton buttona">+</button>
+          <button class="gbutton button0">0</button>
+          <button class="gbutton buttont">.</button>
+          <button class="gbutton buttonc">C</button>
+          <button class="gbutton buttone">=</button>
+        </section>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
