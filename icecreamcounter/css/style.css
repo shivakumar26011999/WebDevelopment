@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: #faebd7;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  height: 100vh;
+  color: #808080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  padding-bottom: 40px;
+}
+span {
+  font-size: 150px;
+  text-align: center;
+  color: #8080807d;
+}
+button {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 6px;
+  letter-spacing: 1.5px;
+}
+button:hover {
+  background-color: #80808081;
+}
